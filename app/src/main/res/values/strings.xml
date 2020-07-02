@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="atul_yadav">Atul Yadav</string>
+    <string name="yellow_star">Yellow_Star</string>
+    <string name="bio">Hi, My name is Atul Yadav
+        I love Coding, Competitive Programming and Android Development
+    </string>
+    <string name="textview">TextView</string>
+</resources>
