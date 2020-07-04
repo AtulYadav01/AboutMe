@@ -5,6 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingStart="@dimen/padding"
+    android:paddingEnd="@dimen/padding"
+    android:textAlignment="center"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,18 +18,22 @@
         android:text="@string/atul_yadav"
         android:textAlignment="center" />
 
-    <ImageView
-        android:id="@+id/Star_Image"
+    <EditText
+        android:id="@+id/nickname_edit"
+        style="@android:style/Widget.AutoCompleteTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/layout_margin"
-        android:contentDescription="@string/yellow_star"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        android:ems="10"
+        android:hint="@string/what_is_your_nickname"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
 
     <ScrollView
         android:id="@+id/bio_scroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#F5F5F8"
         android:paddingStart="@dimen/padding"
         android:paddingEnd="@dimen/padding">
 
@@ -35,7 +42,8 @@
             style="@style/NameStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:lineSpacingMultiplier="1.2"
+            android:lineSpacingMultiplier="2.0"
             android:text="@string/bio" />
     </ScrollView>
+
 </LinearLayout>

@@ -2,8 +2,26 @@
     <string name="app_name">AboutMe</string>
     <string name="atul_yadav">Atul Yadav</string>
     <string name="yellow_star">Yellow_Star</string>
-    <string name="bio">Hi, My name is Atul Yadav
-        I love Coding, Competitive Programming and Android Development
-    </string>
+    <string name="bio"><![CDATA[Hi, My name is Atul Yadav
+
+I love Coding, Competitive Programming and Android Development.
+
+I am a Student of 3 Year of Engineering of Computer Science Branch,
+in Apex Institute of Engineering and Technology.
+
+My hobbies are to read books, mostly novels or fantasy, playing Video Games and to read vedas.
+
+
+I am a google certified Digital Marketer and i have learnt many
+programming Languages in the span of 3 years of my Engineering.
+
+
+
+
+    ]]></string>
     <string name="textview">TextView</string>
+    <string name="name">Name</string>
+    <string name="what_is_your_nickname">what is your nickname</string>
+    <string name="todo">TODO</string>
+
 </resources>
